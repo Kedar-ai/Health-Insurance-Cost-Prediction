@@ -1,6 +1,2 @@
 streamlit
 joblib
-from PIL import Image
-math
-sklearn
-
