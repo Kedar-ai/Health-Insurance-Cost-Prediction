@@ -30,7 +30,7 @@ if choice == "Application":
     </style>"""
     st.markdown(hide_streamlit_style, unsafe_allow_html=True)
     st.subheader('Predict the cost for your Health Insurance')
-    model = joblib.load('win_rfr_health_insurance')
+    model = joblib.load('Win_RFR_Health_Insurance_1')
     age = st.slider("Enter Your Age",18,100)
     s1 = st.radio("Sex",("Male","Female"))
     if s1 == "Male":
