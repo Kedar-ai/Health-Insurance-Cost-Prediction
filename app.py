@@ -2,8 +2,7 @@ import streamlit as st
 import joblib
 import math
 from PIL import Image
-page_config = {"page_title":'Medical_Insurance_KB',"page_icon":'U+1F1F0'}
-st.set_page_config(**page_config)
+st.set_page_config(page_title='Health Insurance',page_icon=favicon,initial_sidebar_state = 'auto')
 
 def predict_insurance_cost(age,sex,bmi,children,smoker,region):
     prediction=model.predict([[age,sex,bmi,children,smoker,region]])
