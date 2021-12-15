@@ -3,7 +3,7 @@ import joblib
 import math
 from PIL import Image
 
-st.set_page_config(page_title='Medical Insurance',page_icon='KB')
+st.set_page_config(page_title='Medical Insurance',page_icon='🇰🇧')
 
 def predict_insurance_cost(age,sex,bmi,children,smoker,region):
     prediction=model.predict([[age,sex,bmi,children,smoker,region]])
