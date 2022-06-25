@@ -17,7 +17,7 @@ choice = st.sidebar.selectbox("", menu)
 if choice == "Application":
     html_temp = """
         <div style="background-color:green;padding:15px">
-        <h1 style="color:white";text-align:center> Health Insurance Cost Prediction</h1>
+        <h1 style="color:white";text-align:center> Medical Insurance Cost Prediction</h1>
         </div>
         """
     st.markdown(html_temp, unsafe_allow_html=True)
